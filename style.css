@@ -1,0 +1,951 @@
+body {
+	overflow-x: hidden;
+}
+
+/* Barra de navegacion */
+
+.navbar {
+	padding: 2rem;
+	background-image: url(images/teatrocolon1.jpg);
+	background-repeat: no-repeat;
+}
+
+.navbar-toggler {
+	background-color: yellow;
+}
+
+.navbar ul li {
+	padding: 0px 15px;
+	margin-left: 0px;
+	margin-top: -50px;
+}
+
+.navbar-collapse {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .iconos-redes-sociales a {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 0px solid white;
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+}
+
+.navbar .iconos-redes-sociales i {
+	color: white;
+	font-size: 1.0rem;
+	transition: all 0.2s ease-in;
+}
+
+.navbar .iconos-redes-sociales a:hover {
+	background-color: white;
+	border: 0px solid transparent;
+}
+
+.navbar .iconos-redes-sociales a:hover i {
+	color: black;
+}
+
+#to {
+	color: white;
+}
+
+/* Estilos generales */
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f6f7;
+}
+
+h1 {
+	font-size: 90px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -50px;
+	color: white;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	margin-top: -220px;
+	width: 550px;
+	margin-left: 770px;
+}
+
+.seccion-oscura {
+	color: white;
+	background-color: black;
+}
+
+.seccion-clara {
+	color: black;
+	background-color: white;
+}
+
+.seccion-titulo {
+	font-size: 2.5rem;
+	padding: 10px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.seccion-descripcion {
+	font-size: 1.2rem;
+	color: black;
+	font-weight: lighter;
+}
+
+.seccion-texto {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+.btn-info {
+	font-size: 1.1rem;
+	margin: 20px;
+}
+
+.texto-negro {
+	color: black;
+}
+
+.texto-blanco {
+	color: white;
+}
+
+
+/* Hero */
+
+.hero {
+	background-image: url(images/portada_blog-cine.jpg);
+	background-repeat: no-repeat;
+	min-height: 400px;
+	text-align: center;
+}
+
+.hero-principal {
+	padding: 3rem;
+}
+
+#edla1 {
+	margin-top: -50px;
+	margin-left: -180px;
+	font-size: 35px;
+	font-family: "Courier New", Courier, monospace;
+	width: 650px;
+	text-align: center;
+	color: #99c2ff;
+}
+
+#edla2 {
+	margin-top: 30px;
+	margin-left: -1100px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: lighter;
+	width: 250px;
+	text-align: center;
+	color: white;
+}
+
+#edla3 {
+	margin-top: 35px;
+	margin-left: -1100px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: lighter;
+	width: 250px;
+	text-align: center;
+	color: white;
+}
+
+.slider {
+	width: 650px;
+	height: 375px;
+	margin: auto;
+	overflow: hidden;
+	margin-top: -340px;
+	margin-left: 215px;
+}
+
+.slider ul {
+	padding: 0;
+	display: flex;
+	width: 500%;
+	animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
+	height: 390px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+@keyframes cambio {
+	0% {
+		margin-left: 0;
+	}
+
+	15% {
+		margin-left: 0;
+	}
+
+	20% {
+		margin-left: -100%;
+	}
+
+	35% {
+		margin-left: -100%;
+	}
+
+	40% {
+		margin-left: -200%;
+	}
+
+	55% {
+		margin-left: -200%;
+	}
+
+	60% {
+		margin-left: -300%;
+	}
+
+	75% {
+		margin-left: -300%;
+	}
+
+	80% {
+		margin-left: -400%;
+	}
+
+	100% {
+		margin-left: -400%;
+	}
+}
+
+
+
+.hero-inferior {
+	margin: 50px;
+}
+
+
+/* About me */
+
+.sobre-mi {
+	padding: 40px 40px 60px 40px;
+	background-image: ;
+	background-repeat: no-repeat;
+	margin-top: -160px;
+}
+
+#galeria1 {
+	margin-top: -40px;
+}
+
+.sobre-mi .seccion-titulo {
+	margin-top: -35px;
+}
+
+.sobre-mi .columna {
+	padding: 10px;
+	border: 0px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: all 0.2s ease-in;
+}
+
+.sobre-mi-titulo1 {
+	font-size: 60px;
+	font-weight: lighter;
+	margin: 10px 0;
+	color: white;
+	margin-top: -1185px;
+	margin-left: 50px;
+}
+
+.sobre-mi-parrafo1 {
+	margin-top: -180px;
+	margin-left: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: italic;
+	width: 450px;
+}
+
+.sobre-mi-titulo2 {
+	font-size: 60px;
+	font-weight: lighter;
+	margin: 10px 0;
+	color: white;
+	margin-top: -1080px;
+	margin-left: 725px;
+	width: 400px;
+}
+
+.sobre-mi-parrafo2 {
+	margin-top: 20px;
+	margin-left: 725px;
+	color: black;
+	font-size: 19px;
+	font-weight: lighter;
+	font-style: italic;
+	width: 496px;
+}
+
+/* Formacion */
+
+
+/* Projects */
+
+#proyectos {
+	background-image: url(images/london2.jpg);
+	margin-top: -80px;
+}
+
+#proyectos .seccion-titulo {
+	color: black;
+	margin-top: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+}
+
+#if {
+	margin-top: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+.wrap {
+	margin-top: 20px;
+	margin: -40px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tarjeta-wrap {
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta {
+	width: 300px;
+	height: 350px;
+	background: #e0e0d2;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: 0.7s ease;
+	transition: 0.7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+}
+
+.adelante,
+.atras {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante {
+	width: 100%;
+}
+
+.atras {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: monospace;
+	font-size: 19px;
+	background: black;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card1 {
+	background-image: url(images/pintores2.jpg);
+	background-size: cover;
+}
+
+.card2 {
+	background-image: url(images/escultores1.jpg);
+	background-size: cover;
+}
+
+.card3 {
+	background-image: url(images/danza2.jpg);
+	background-size: cover;
+}
+
+#proyectos .seccion-descripcion {
+	color: white;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.proyectos-contenedor {
+	padding-top: 60px;
+	margin-bottom: 40px;
+	margin-top: -35px;
+}
+
+#fotodelwrap1 {
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+#lorem1 {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	margin-top: -355px;
+	margin-left: 860px;
+	width: 300px;
+	color: white;
+
+}
+
+#lorem2 {
+   color: white;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+   margin-top: 10px;
+   margin-left: 910px;
+   width: 200px;
+}
+
+#fotodelwrap2 {
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+#lorem3 {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	margin-top: -355px;
+	margin-left: 860px;
+	width: 300px;
+	color: white;
+
+}
+
+#lorem4 {
+   color: white;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+   margin-top: 10px;
+   margin-left: 910px;
+   width: 200px;
+}
+
+#fotodelwrap3 {
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+#lorem5 {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	margin-top: -355px;
+	margin-left: 860px;
+	width: 300px;
+	color: white;
+}
+
+#lorem6 {
+   color: white;
+   font-size: 17px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+   margin-top: 10px;
+   margin-left: 910px;
+   width: 200px;
+}
+
+.proyecto {
+	position: relative;
+}
+
+
+
+/* Articles */
+
+.articul {
+	min-height: 500px;
+	padding: 30px;
+}
+
+.articul .card {
+	width: 80%;
+	max-width: 600px;
+	margin: 20px;
+}
+
+/* Testimonios */
+
+.testimoni {
+	padding: 40px 40px 80px 40px;
+}
+
+.testimoni .carousel {
+	max-width: 800px;
+}
+
+.carous-item {
+	height: 500px;
+}
+
+.carous-item .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.testimon-imagen {
+	height: 150px;
+	width: 150px;
+	margin: 10px 10px 20px 10px;
+}
+
+.testimon-texto {
+	max-width: 70%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.testimon-info {
+	font-weight: lighter;
+	text-align: center;
+	font-style: italic;
+}
+
+.testimon-info p {
+	margin-bottom: 0;
+}
+
+.testimon-footer .cliente {
+	font-size: 1.2rem;
+}
+
+.testimon-info .cargo {
+	font-size: 0.9rem;
+	color: black;
+}
+
+/* Contact */
+.contacto {
+	width: 100%;
+	background-image: url(images/elateneo2.webp);
+}
+.contacto .container {
+	max-width: 1300px;
+	min-height: 200px;
+	padding: 20px;
+	background-color: transparent;
+}
+
+.contacto .rectangulo {
+	margin-top: -20px;
+	background-color: transparent;
+	border-radius: 10px;
+	box-shadow: ;
+}
+
+.contacto .row {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.contacto .seccion-titulo {
+	color: white;
+}
+
+.contacto .descripcion {
+	color: white;
+	font-size: 1.4rem;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#llamame {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	width: 750px;
+	margin-left: -290px;
+	text-align: center;
+}
+
+contact butto {
+	color: ;
+	font-weight: lighter;
+	background-color: transparent;
+	border: 0px solid transparent;
+	padding: 0.00em 0em;
+	margin: 10px;
+	border-radius: 0px;
+	transition: all  ease-in-out;
+}
+
+contact butto:hove {
+	backgroun-colo: ;
+	colo: ;
+}
+
+contact butto i {
+	color: ;
+	font-siz: .rem;
+	transitio: all 0. ease-in-out;
+	margin-lef: 15px;
+}
+
+contact butto:hove  {
+	colo: ;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+	min-height: 200px;
+	width: 100%;
+	background-image: url(images/blackpiano2.jpg);
+	margin-top: 0px;
+}
+
+.footer-logo {
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.footer-texto {
+	font-size: 180px;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: lighter;
+	color: white;
+	margin-top: -60px;
+}
+
+.iconos-redes-sociales a {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 0px solid white;
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+	margin-top: -75px;
+}
+
+.iconos-redes-sociales i {
+	color: white;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+	background-color: white;
+	border: 0px solid transparent;
+}
+
+.iconos-redes-sociales a:hover i {
+	color: #27532f;
+}
+
+#to2 {
+	color: white;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.derechos-de-autor {
+	font-size: 15px;
+	color: white;
+	padding: 20px;
+	margin-top: 0px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 540px) {
+	.navbar {
+	    width: 1000px;	
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.navbar ul li {
+		margin-left: -450px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.navbar .iconos-redes-sociales {
+		width: 350px;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.navbar #to {
+		color: black;
+		font-weight: bolder;
+		font-size: 30px;
+		margin-left: -50px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.hero {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.hero #edla1 {
+		font-size: 20px;
+		margin-top: -30px;
+		margin-left: -280px;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.hero #edla2 {
+		margin-top: 30px;
+		margin-left: -550px;
+		font-size: 16px;
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.hero #edla3 {
+    margin-top: 25px;
+		margin-left: -550px;
+		font-size: 16px;
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.hero .slider {
+	margin-top: -350px;
+	margin-left: 160px;
+	width: 200px;
+	height: 360px;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+	.testimonio-imagen {
+		height: 120px;
+		width: 120px;
+	}
+
+	.testimonio-texto {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.hero-inferior-imagen {
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.sobre-mi {
+		width: 455px;
+		margin-top: -162px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.sobre-mi-titulo1 {
+		width: 100px;
+		margin-top: -1025px;
+		margin-left: -260px;
+		font-size: 35px;
+		color: red;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.sobre-mi-parrafo1 {
+		width: 120px;
+		margin-top: 10px;
+		margin-left: -260px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.sobre-mi-titulo2 {
+		width: 200px;
+		margin-top: -1065px;
+		margin-left: 130px;
+		font-size: 35px;
+		color: red;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.sobre-mi-parrafo2 {
+		width: 150px;
+		margin-top: -10px;
+		margin-left: 150px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.formacion .seccion-titulo	{
+	      font-size: 25px;
+		  text-align: center;
+		  color: black;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#if {
+		width: 300px;
+		font-size: 25px;
+		margin-left: 75px;
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#proyectos {
+		width: 450px;
+		margin-top: -134px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#proyectos .tarjeta-wrap    {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width:540px) {
+	.contacto {
+		width: 540px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#llamame {
+		font-size: 20px;
+		width: 300px;
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	footer {
+        width: 500px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.footer-texto {
+       margin-left: -60px;
+	     text-align: center;
+	}
+} 
+
+@media screen and (max-width: 540px) {
+.iconos-redes-sociales i {
+     margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+	#to2 {
+		max-width: 400px;
+		margin-top: 10px;
+		margin-left: -60px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.derechos-de-autor {
+		max-width: 400px;
+		margin-top: 10px;
+		margin-left: -60px;
+	}
+}
